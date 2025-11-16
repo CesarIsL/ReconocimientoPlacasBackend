@@ -68,9 +68,9 @@ Cada infracción se relaciona con el empleado, la ubicación, fecha/hora y el ve
 pip install -r requirements.txt
 4.  ¡Inicia el servidor!
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8000 #localmente
 
-uvicorn main:app --host 0.0.0.0 --port $PORT  //para render
+uvicorn main:app --host 0.0.0.0 --port $PORT  #para render
 ```
 ### **1. Clonar el repositorio**
 ```bash
